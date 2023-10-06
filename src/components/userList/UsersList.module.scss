@@ -1,0 +1,32 @@
+.userlist {
+    padding: 5px;
+    background-color: #ffc796;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.userlist p {
+    color: white;
+    font-size: 20px;
+}
+
+.user {
+    cursor: pointer;
+    padding: 5px;
+    opacity: 0;
+
+    &__active {
+        color: red;
+        background-color: #fff9a1;
+    }
+}
+
+.notification {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: aqua;
+}

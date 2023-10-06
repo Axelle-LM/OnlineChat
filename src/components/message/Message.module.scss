@@ -1,0 +1,19 @@
+.message {
+    transform: translateX(-100px);
+
+    &__self {
+        text-align: right;
+        transform: translateX(100px);
+    }
+}
+
+.messages {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 800px;
+    height: 55vh;
+    overflow-y: auto;
+    ;
+}

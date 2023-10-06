@@ -1,0 +1,22 @@
+.user {
+    padding: 5px;
+    background-color: #ffc796;
+    width: 15%;
+    height: 100%;
+    opacity: 0;
+    transform: translateX(-100px);
+
+
+    cursor: pointer;
+    padding: 5px;
+
+    &__active {
+        color: red;
+        background-color: #fff9a1;
+    }
+}
+
+.userlist p {
+    color: white;
+    font-size: 20px;
+}
